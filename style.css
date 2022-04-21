@@ -1,0 +1,20 @@
+header {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 32pt;
+    color: white;
+    
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #262626;
+    color: white;
+}
+@media (max-width: 576px) {
+    section {
+        grid-template-columns: 1fr;
+        background-color: white;
+        color: black
+    }
+}
