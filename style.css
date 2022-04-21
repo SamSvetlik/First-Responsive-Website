@@ -10,11 +10,38 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #262626;
     color: white;
+    justify-items: center;
+    justify-content: space-between;
+    max-height: 576px;
 }
 @media (max-width: 576px) {
+    header {
+        background-color: deepskyblue;
+    }
     section {
         grid-template-columns: 1fr;
         background-color: white;
         color: black
     }
+}
+div *{
+    margin: 50px;
+    max-width: 217px;
+    min-width: 217px;
+}
+
+h1 {
+    border-top: deepskyblue 20px solid;
+    text-align: center;
+}
+h2 {
+    border-top: #ff7f00 20px solid;
+    text-align: center;
+}
+h3 {
+    border-top: aquamarine 20px solid;
+    text-align: center;
+}
+p {
+    text-align: center;
 }
