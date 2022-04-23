@@ -1,5 +1,5 @@
 header {
-    background-color: aquamarine;
+    background-color:  #2bcec1;
     text-align: center;
     font-size: 32pt;
     color: white;
@@ -39,7 +39,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    border-top: aquamarine 20px solid;
+    border-top:  #2bcec1 20px solid;
     text-align: center;
 }
 p {
